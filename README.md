@@ -32,4 +32,9 @@ pip3 install requests
 
 ---
 
-## 
+## API Keys Required
+
+You will need free API keys from:
+
+- https://www.abuseipdb.com/
+- https://www.virustotal.com/
