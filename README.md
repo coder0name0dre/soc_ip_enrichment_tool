@@ -14,3 +14,21 @@ The script:
 
 ---
 
+## Requirements
+
+- macOS (tested)
+- Linux or Windows should also work with minor changes
+- Python 3.9+
+
+### Required Python Library
+
+This script uses the `requests` library.
+
+Install it with:
+
+```
+pip3 install requests
+```
+
+---
+
