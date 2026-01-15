@@ -122,3 +122,5 @@ Run:
 source ~/.zshrc
 ```
 
+This makes the new variables available immediately.
+
