@@ -38,3 +38,29 @@ You will need free API keys from:
 
 - [www.abuseipdb.com](https://www.abuseipdb.com/)
 - [www.virustotal.com](https://www.virustotal.com/)
+
+**Do Not hardcode API keys into the script**
+
+---
+
+## Setting API Keys (macOS)
+
+### Create an AbuseIPDB API Key
+
+1. Open your browser and go to:
+
+```
+https://www.abuseipdb.com/
+```
+
+2. Click **Sign Up** at the top right of thew homepage and create a free account.
+3. After logging in, go to **My API**.
+4. Under **Create API Key**, click on **Create Key**.
+5. Copy your API Key.
+  - It will look like a long random string.
+  - Do not paste it into the python script.
+
+Keep this key safe.
+
+### Create a VirusTotal API Key
+
