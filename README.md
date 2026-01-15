@@ -64,3 +64,61 @@ Keep this key safe.
 
 ### Create a VirusTotal API Key
 
+1. Open your browser and go to:
+
+```
+https://www.virustotal.com/
+```
+
+2. Create a free account or log in.
+3. Click on your profile icon (top right corner).
+4. Select API Key.
+5. Copy your API Key.
+
+### Store API Keys Securely (macOS)
+
+We will store the keys as environment variables.
+This keeps them out of the code and safe.
+
+1. Open your terminal
+
+Press:
+- Cmd + Space
+- Type Terminal
+- Press Enter
+
+2. Edit your shell configuration file
+
+On macOS (default shell is `zsh`), run:
+
+```
+nano ~/.zshrc
+```
+
+This opens a text editor in the terminal.
+
+3. Add your API keys
+
+At the bottom of the file, add:
+
+```
+export ABUSEIPDB_API_KEY="PASTE_YOUR_ABUSEIPDB_KEY_HERE"
+export VIRUSTOTAL_API_KEY="PASTE_YOUR_VIRUSTOTAL_KEY_HERE"
+```
+
+- **Replace the placeholder text with your actual keys**
+- **Keep the quotation marks**
+
+4. Save and exit
+
+- Press Ctrl + O, and then Enter (save)
+- Press Ctrl + X (exit)
+
+### Load the API Keys into your Terminal session
+
+Run:
+
+```
+source ~/.zshrc
+```
+
