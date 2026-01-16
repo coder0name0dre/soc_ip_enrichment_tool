@@ -155,3 +155,21 @@ python3 soc_ip_enrichment.py
 ```
 
 ---
+
+## Ouput
+
+### Terminal Output
+
+The script prints a clear summary for each IP:
+
+- AbuseIPDB score
+- VirusTotal detections
+- Combined risk score
+- Verdict
+
+### CSV Output
+
+Results are saved to:
+
+```
+```
