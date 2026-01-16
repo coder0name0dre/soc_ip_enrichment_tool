@@ -124,3 +124,34 @@ source ~/.zshrc
 
 This makes the new variables available immediately.
 
+### Verify you API Keys are set
+
+Run:
+
+```
+echo $ABUSEIPDB_API_KEY
+echo $VIRUSTOTAL_API_KEY
+```
+
+If you see your keys printed, the setup worked
+
+If nothing prints, the variables are not set correctly
+
+---
+
+## How To Run The Script
+
+1. Clone or download the repository
+2. Navigate into the project directory:
+
+```
+cd soc_ip_enrichment_tool
+```
+
+3. Run the script
+
+```
+python3 soc_ip_enrichment.py
+```
+
+---
