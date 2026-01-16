@@ -172,4 +172,14 @@ The script prints a clear summary for each IP:
 Results are saved to:
 
 ```
+soc_ip_enrichment_results.csv
 ```
+
+Each run appends new rows instead of overwriting existing data.
+
+### CSV Columns
+
+| Columm              | Description                         |
+-------------------------------------------------------------
+| timestamp_utc       | When the enrichment was performed   |
+-------------------------------------------------------------
