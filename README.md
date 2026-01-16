@@ -179,7 +179,12 @@ Each run appends new rows instead of overwriting existing data.
 
 ### CSV Columns
 
-| Columm              | Description                         |
--------------------------------------------------------------
-| timestamp_utc       | When the enrichment was performed   |
--------------------------------------------------------------
+| Column             | Description                          |
+| ------------------ | ------------------------------------ |
+| timestamp_utc      | When the enrichment was performed    |
+| ip_address         | IP being analyzed                    |
+| abuseipdb_score    | AbuseIPDB confidence score           |
+| vt_malicious       | VirusTotal malicious detections      |
+| vt_suspicious      | VirusTotal suspicious detections     |
+| risk_score         | Combined calculated score            |
+| verdict            | Analyst friendly verdict             |
