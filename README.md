@@ -188,3 +188,7 @@ Each run appends new rows instead of overwriting existing data.
 | vt_suspicious      | VirusTotal suspicious detections     |
 | risk_score         | Combined calculated score            |
 | verdict            | Analyst friendly verdict             |
+
+## License
+
+This project is licensed under the [MIT License](https://github.com/coder0name0dre/soc_ip_enrichment_tool/blob/main/LICENSE).
